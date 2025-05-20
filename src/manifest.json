@@ -1,5 +1,5 @@
 {
-  "name": "AgeCalculator ",
+  "name": "AgeCalculator",
   "short_name": "AgeCal",
   "description": "A responsive Age Calculator web app to instantly find age in years, months, and days. Built with HTML, Tailwind CSS, and JavaScript. Clean UI, mobile-friendly, and easy to use.",
   "start_url": "/",
