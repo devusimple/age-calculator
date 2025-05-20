@@ -1,7 +1,7 @@
-// main.js
+// PWA
 
 let installPrompt = null;
-const installButton = document.querySelector("#install");
+const installButton = document.getElementById("install");
 
 window.addEventListener("beforeinstallprompt", (event) => {
   event.preventDefault();
@@ -23,17 +23,7 @@ function disableInAppInstallPrompt() {
   installButton.setAttribute("hidden", "");
 }
 
-
-
-
-
-
-
-
-
-
-
-
+// Calculator functionality 
 
     function calculateAge() {
       const birthDate = new Date(document.getElementById("birthDate").value);
