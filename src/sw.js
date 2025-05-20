@@ -11,19 +11,24 @@ const APP_STATIC_RESOURCES = [
   "/main.js",
   "/style.css",
   "/sw.js",
-  "splash-1125x2436.png",
-"splash-1242x2208.png",
-"splash-1280x1920.png",
-"splash-1536x2048.png",
-"splash-1668x2224.png",
-"splash-2048x2732.png",
-"splash-320x426.png",
-"splash-320x470.png",
-"splash-480x640.png",
-"splash-720x960.png",
-"splash-750x1334.png",
-"splash-960x1280.png",
+  '/src/ios/',
+  '/src/android/',
+  '/src/windows11',
+  '/src/manifest.json',
 ];
+
+const PRECACHE_ASSETS = [
+    '/src/ios/',
+    '/src/android/',
+    '/src/windows11',
+    '/manifest.json',
+    '/index.html',
+    '/style.css',
+    '/main.js',
+    '/sw js'
+    
+]
+
 
 // On install, cache the static resources
 self.addEventListener("install", (event) => {
